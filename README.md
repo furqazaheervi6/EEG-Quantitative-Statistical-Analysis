@@ -10,3 +10,8 @@ This block diagram outlines the computational sequence for EEG spectral and cohe
 5. **Data Smoothing:** Apply averaging or windowing to reduce noise, yielding (\hat{G}*{X_k}, \hat{G}*{Y_k}, \hat{G}_{XY_k}).
 6. **Coherence:** Calculate normalized coherence (Y_K^{2XY}) = (|\hat{G}*{XY_k}|^2 / (\hat{G}*{X_k}\hat{G}_{Y_k})).
 7. **Phase Shift:** Compute phase difference (\delta(f)) between signals across frequencies.
+
+This method of stastical analysis is derived from the paper
+Leuthardt, E. C., et al. (2004). A brain–computer interface using electrocorticographic signals in humans. Journal of Neural Engineering, 1(2), 63–71. https://doi.org/10.1109/TNSRE.2007.4121782
+
+<img width="541" height="785" alt="image" src="https://github.com/user-attachments/assets/7e380666-14ec-463b-b274-66a0422fa53b" />
